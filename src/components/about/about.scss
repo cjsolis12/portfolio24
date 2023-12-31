@@ -8,16 +8,25 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  flex-direction: column;
 
   h1 {
     font-size: 100px;
-    font-weight: 200;
+    font-weight: 300;
     z-index: 1;
 
     @include mobile {
       font-size: 72px;
       text-align: center;
     }
+  }
+
+  p {
+    font-size: 40px;
+    font-weight: 300;
+    padding: 20px;
+    z-index: 1;
+ 
   }
 
   .watercolor {
