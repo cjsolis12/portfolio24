@@ -1,22 +1,27 @@
-import "./app.scss"
+import "./app.scss";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
+import About from "./components/about/About";
 
 const App = () => {
-  return <div>
-    <section id="Homepage">
-      <Navbar/>
-      <Hero/>
+  return (
+    <div>
+      <section id="Homepage">
+        <Navbar />
+        <Hero />
       </section>
-    <section id="About">Parallax</section>
-    <section>About</section>
-    <section id="Portfolio">Parallax</section>
-    <section>Portfolio1</section>
-    <section>Portfolio2</section>
-    <section>Portfolio3</section>
-    <section id="Contact">Contact</section>
-    <section id="Resume">Resume</section>
-  </div>;
+      <section id="About">
+        <About />
+      </section>
+      <section>About</section>
+      <section id="Portfolio">Parallax</section>
+      <section>Portfolio1</section>
+      <section>Portfolio2</section>
+      <section>Portfolio3</section>
+      <section id="Contact">Contact</section>
+      <section id="Resume">Resume</section>
+    </div>
+  );
 };
 
 export default App;
