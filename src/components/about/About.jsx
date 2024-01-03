@@ -9,7 +9,6 @@ const About = () => {
     const scrollY = window.scrollY;
     const windowHeight = window.innerHeight;
 
-    // Adjust these values according to your preference
     const startAnimationAt = windowHeight / 2;
     const endAnimationAt = windowHeight * 1.5;
 
@@ -21,12 +20,10 @@ const About = () => {
   };
 
   useEffect(() => {
-    // Attach the scroll event listener
+    
     window.addEventListener("scroll", handleScroll);
-
-    // Cleanup the event listener when the component unmounts
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []); // Empty dependency array to ensure the effect runs only once
+  }, []); 
 
   return (
     <motion.div
