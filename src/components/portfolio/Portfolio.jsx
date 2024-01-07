@@ -13,14 +13,21 @@ const Portfolio = () => {
         <div className="portfolio-title"> My Work</div>
         <div className="card-container">
           <div className="card">
-        <div className="card-main">
-        <img src="./codeflix.png" alt="mvc-project" />
-        </div>
+            <div className="card-main">
+              <img src="./codeflix.png" alt="mvc-project" />
+            </div>
           </div>
-            <div className="card">Hi</div>
-            <div className="card">Hi</div>
-            <div className="card">Hi</div>
-          
+          <div className="card">
+            <div className="card-main">
+              <img src="./short-stack.png" alt="" />
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-main">
+              <img src="./book-search.png" alt="" />
+            </div>
+          </div>
+          <div className="card">Hi</div>
         </div>
       </div>
     </>
