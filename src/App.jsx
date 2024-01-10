@@ -14,13 +14,9 @@ const App = () => {
       <section id="About">
         <About />
       </section>
-      <section>
+      <section id="Portfolio">
         <Portfolio />
       </section>
-      <section id="Portfolio">Parallax</section>
-      <section>Portfolio1</section>
-      <section>Portfolio2</section>
-      <section>Portfolio3</section>
       <section id="Contact">Contact</section>
       <section id="Resume">Resume</section>
     </div>
