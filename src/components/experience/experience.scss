@@ -1,0 +1,69 @@
+@import "../../app.scss";
+
+.experience{
+    width: 100%;
+    height: 100vh;
+
+    h1{
+    font-size: 100px;
+    font-weight: 300;
+    padding: 5% 10%;
+    text-align: center;
+
+    @include mobile {
+        font-size: 72px;
+        text-align: center;
+      }
+    }
+
+    .vertical-timeline-element {
+    
+      &.vertical-timeline-element--work {
+        .vertical-timeline-element-content {
+          background: rgb(33, 150, 243);
+          color: #fff;
+    
+          .vertical-timeline-element-title,
+          .vertical-timeline-element-subtitle,
+          p {
+            color: #fff;
+          }
+        }
+    
+        .vertical-timeline-element-icon {
+          background: rgb(33, 150, 243);
+          color: #fff;
+        }
+    
+        .vertical-timeline-element-content-arrow {
+          border-right: 7px solid rgb(33, 150, 243);
+        }
+      }
+    
+      &.vertical-timeline-element--education {
+        .vertical-timeline-element-content {
+          background: rgb(233, 30, 99);
+          color: #fff;
+    
+          .vertical-timeline-element-title,
+          .vertical-timeline-element-subtitle,
+          p {
+            color: #fff;
+          }
+        }
+    
+        .vertical-timeline-element-icon {
+          background: rgb(233, 30, 99);
+          color: #fff;
+        }
+    
+        .vertical-timeline-element-content-arrow {
+          border-right: 7px solid rgb(233, 30, 99);
+        }
+      }
+    }
+}
+
+
+
+

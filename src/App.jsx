@@ -3,7 +3,7 @@ import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import About from "./components/about/About";
 import Portfolio from "./components/portfolio/Portfolio";
-import Resume from "./components/resume/Resume";
+import Experience from "./components/experience/experience";
 
 const App = () => {
   return (
@@ -18,8 +18,8 @@ const App = () => {
       <section id="Portfolio">
         <Portfolio />
       </section>
-      <section id="Resume">
-        <Resume/>
+      <section id="experience">
+        <Experience/>
         </section>
       <section id="Contact">Contact</section>
      
